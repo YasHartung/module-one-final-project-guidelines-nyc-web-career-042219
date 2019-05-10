@@ -103,7 +103,7 @@ def dish_cat(user)
       main_menu(user)
     else
       puts "please select 1, 2, 3, 4, or 5 "
-      main_menu(user)
+      dish_cat(user)
     end
 
 end

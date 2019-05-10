@@ -10,7 +10,7 @@ class User < ActiveRecord::Base
       counter += 1
       dish.id
     end
-    dishes
+    dishes #returns array of all the dish IDs that belong to the user 
   end
 
 
